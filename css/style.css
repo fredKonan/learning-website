@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family:'Newsreader', serif,Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
@@ -88,11 +88,12 @@ body{
     text-decoration: none;
     align-items: flex-start;
     list-style: none;
-    cursor: pointer;
+    
 }
 li{
     margin-left: 3rem;
     padding-left: 5.4rem;
+    cursor: pointer;
 }
 .home{
     width: 3.2rem;
@@ -106,12 +107,14 @@ li{
 .banner-1{
     width: 100vw;
     height: 20rem;
-    background-color: gold;
+    background-image: url(/media/desktop-html.jpeg);
+    background-repeat: no-repeat;
     padding-top: 0;
     border-top: solid 5px var(--color-primary);
     justify-content: center;
     display:inline-block;
     padding:4rem 30rem;
+    
 }
 .skill{
     color: var(--color-text);
@@ -141,4 +144,133 @@ li{
     color: #fff;
     font-weight:300;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-2
+    {
+    width: 100vw;
+    height: 6rem;
+    background-repeat: no-repeat;
+    padding-top:2rem;
+    display:inline-block;
+    padding:4rem 30rem;
+}
+#card-img{
+    width: 9rem;
+    height: 10rem;
+    padding-left: 2rem;
+}
+.card-1,
+.card-2,
+.card-3{
+    width: 20rem;
+    height: 13rem;
+    padding-left: 0;
+}
+.banner-2-card
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+h3,h2{
+    color:var(--color-text);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:var(--color-text);
+    
+}
+.banner-3{
+    background-color: aliceblue;
+    padding-top: 10rem;
+    padding-left: 8rem;
+    
+    width: 100vw;
+    height: 20rem;
+    display:flex;
+    flex-direction: row;
+
+}
+
+#banner-3-img,#mobile-img{
+    width: 40rem;
+    height: 25rem;
+    padding-top: 0;
+}
+.community-1{
+    padding: auto;
+    background-color: aliceblue;
+    width: 30rem;
+}
+
+.banner-4{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6rem;
+    justify-content: space-around;
+    background-color: #3a8ffd;
+    margin-bottom: 0;
+}
+.btt-mobile{
+    border: none;
+    margin-inline: 1rem;
+    border-radius: 6px;
+    width: 9rem;
+    height: 3.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+}
+.banner-5{
+    background-color: royalblue;
+    margin-top:0;
+    padding-top: 2.3rem;
+    
+}
+.banner-5-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+    
+}
+.title-2{
+    padding-left: 28rem;
+}
+#h2{
+    padding-left: 6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fff;
+}
+#img-5{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+.title-card-p>p{
+    margin-left: 2rem;
+    color: #fff;
+}
+.title-2>p{
+    color: #fff;
+}
+.title-5{
+    cursor: pointer;
+}
+.t-1:hover{
+    background-color: chocolate;
+}
+.t-2:hover{
+    background-color: darkgoldenrod;
+}
+.t-3:hover{
+    background-color: forestgreen;
+}
+.t-4:hover{
+    background-color: #ff3400;
 }
