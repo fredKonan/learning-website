@@ -63,6 +63,11 @@ body{
     color: #3a8ffd;
     border:solid 1px lightgrey;
 }
+.btt-1:hover,
+.btt-2:hover{
+    transition: all .4s ease-in-out;
+   transform: scale(1.1);
+}
 
     
 .hearder{
@@ -147,7 +152,6 @@ li{
     {
     width: 100vw;
     height: 6rem;
-    background-repeat: no-repeat;
     padding-top:2rem;
     display:inline-block;
     padding:4rem 30rem;
@@ -262,15 +266,23 @@ p{
 }
 .t-1:hover{
     background-color: chocolate;
+    transition: all .4s ease-in-out;
+   transform: scale(1.1);
 }
 .t-2:hover{
     background-color: darkgoldenrod;
+    transition: all .4s ease-in-out;
+   transform: scale(1.1);
 }
 .t-3:hover{
     background-color: forestgreen;
+    transition: all .4s ease-in-out;
+   transform: scale(1.1);
 }
 .t-4:hover{
     background-color: #ff3400;
+    transition: all .4s ease-in-out;
+   transform: scale(1.1);
 }
 .courses{
     width: 100vw;
@@ -304,7 +316,7 @@ p{
 }
 .css-card{
     border-top: solid 10px orange;
-    box-shadow:  0 8px 6px -10px orange;
+    box-shadow:  0 8px 6px -10px orange;   
 }
 .js-card{
     border-top: solid 10px #3a8ffd;
@@ -360,9 +372,50 @@ h4{
     color: #000;
 }
 
-
-    
-
+.home-collapse{
+    display: grid;
+    grid-template-columns:repeat(2,300px);
+    grid-template-rows:repeat(3,80px);
+    row-gap: 10px;
+    column-gap: 30px;
+    width: 500px;
+    height:100px ;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-weight: bold ;
+}
+.home-collapse  a{
+    text-decoration: none;
+}
+  .home-elmt1,
+  .home-elmt2,
+  .home-elmt3,
+  .home-elmt4,
+  .home-elmt5,
+  .home-elmt6{
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -10px grey ;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+     background-color: aliceblue;
+     display: inline;
+}
+.home-elmt1:hover,
+  .home-elmt2:hover,
+  .home-elmt3:hover,
+  .home-elmt4:hover,
+  .home-elmt5:hover,
+  .home-elmt6:hover{
+   transition: all .4s ease-in-out;
+   transform: scale(1.1);
+   background-color: #3a8ffd;
+  
+  }
+#learn a{
+    text-decoration: none;
+    color: #000;
+}
 
 
 
