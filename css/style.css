@@ -425,3 +425,6 @@ h4 {
   display: inline-block;
   position: relative;
 }
+.btt-2 a {
+  text-decoration: none;
+}
