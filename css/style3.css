@@ -22,7 +22,7 @@ body {
   justify-content: center;
   padding-top: 3rem;
   background-color: azure;
-  box-shadow: 0 8px 6px -10px #34a4ed;
+  box-shadow: 6px 6px 6px dodgerblue, -6px -6px 6px dodgerblue;
   opacity: 2;
 }
 
